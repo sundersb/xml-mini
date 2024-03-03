@@ -1,0 +1,26 @@
+{
+  "name": "@sundersb/xml-mini",
+  "version": "1.0.0",
+  "description": "Small XML parser",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha *-test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:sundersb/xml-mini.git"
+  },
+  "keywords": [
+    "xml",
+    "parse"
+  ],
+  "author": "Alexander Belkov",
+  "license": "ISC",
+  "dependencies": {
+    "@sundersb/parser-mini": "^1.0.0"
+  },
+  "devDependencies": {
+      "chai": "^4.3.10",
+      "mocha": "^10.2.0"
+  }
+}
